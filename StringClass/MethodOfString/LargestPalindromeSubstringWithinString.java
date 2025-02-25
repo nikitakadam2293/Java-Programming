@@ -23,11 +23,12 @@ class Palindrome {
             for (int j = 0; j < str.length(); j++) {
                 if (checkPalindrom(str, i, j) && (j - i+1) > maxlen) {
                     strart = i;
-                    maxlen = j - i + 1;
+                    maxlen = j+1;
+                    //maxlen = j - i + 1;
                 }
             }
         }
-        return str.substring(strart,  maxlen+1); //strart+ maxlen
+        return str.substring(strart,  maxlen); //strart+ maxlen
     }
 }
 public class LargestPalindromeSubstringWithinString {

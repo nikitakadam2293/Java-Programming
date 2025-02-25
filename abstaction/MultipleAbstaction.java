@@ -24,6 +24,5 @@ public class MultipleAbstaction extends B{
 
     @Override
     void show() {
-
     }
 }

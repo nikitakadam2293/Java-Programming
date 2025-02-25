@@ -6,7 +6,7 @@ class SuperAx
     {
         System.out.println("SuperAx no arg constructor");
     }
-    SuperAx(int a)
+    SuperAx(int a)  //3
     {
         System.out.println("SuperAx 1 arg constructor"); //
     }
@@ -15,7 +15,7 @@ class SuperBx extends SuperAx
 {
     int a1=11;
     String b= "xxxx";
-    SuperBx()
+    SuperBx()  //2
     {
         super(11);
         System.out.println("SuperBx no arg constructor"); //
@@ -49,9 +49,9 @@ public class SuperKnowledgeTest1  extends SuperBx{
 
     public static void main(String[] args) {
         //SuperKnowledgeTest1 obj=new SuperKnowledgeTest1(1002,"program",false);
-        SuperKnowledgeTest1 obj=new SuperKnowledgeTest1();
-        SuperBx s =new SuperBx();
-        SuperBx s1 =new SuperBx(11,"SuperBx");
-        obj.fun();
+       // SuperKnowledgeTest1 obj=new SuperKnowledgeTest1();
+       // SuperBx s =new SuperBx();
+       SuperBx s1 =new SuperBx(11,"SuperBx");
+        //obj.fun();
     }
 }

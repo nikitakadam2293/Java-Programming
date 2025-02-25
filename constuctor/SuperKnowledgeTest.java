@@ -2,7 +2,7 @@ package constuctor;
 
 class SuperA
 {
-    SuperA()
+    SuperA()  //3
     {
         System.out.println("SuperA no arg constructor");
     }
@@ -13,7 +13,7 @@ class SuperA
 }
 class SuperB extends SuperA
 {
-    SuperB()
+    SuperB()   //2
     {
         System.out.println("SuperB no arg constructor");
     }
@@ -27,7 +27,7 @@ public class SuperKnowledgeTest  extends SuperB{
     {
         System.out.println("SuperKnowledgeTest no arg constructor");
     }
-    SuperKnowledgeTest(int a, String b,boolean t)
+    SuperKnowledgeTest(int a, String b,boolean t)   //1
     {
         System.out.println("SuperKnowledgeTest 3 arg constructor");
     }

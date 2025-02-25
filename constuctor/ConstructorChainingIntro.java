@@ -20,7 +20,7 @@ public class ConstructorChainingIntro {
     }
     public static void main(String[] args) {
 
-        ConstructorChainingIntro child=new ConstructorChainingIntro();
+       // ConstructorChainingIntro child=new ConstructorChainingIntro();
         //ConstructorParent parent=new ConstructorParent();
 }
 

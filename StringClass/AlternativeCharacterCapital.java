@@ -64,9 +64,13 @@ public class AlternativeCharacterCapital {
         */
 
     }
+
+
     public static void main(String[] args) {
 
         AlternativeCharacterCapital o = new AlternativeCharacterCapital();
         o.alternativeLeterCapital();
+
+
     }
 }

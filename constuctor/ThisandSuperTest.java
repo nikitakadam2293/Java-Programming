@@ -2,23 +2,23 @@ package constuctor;
 
 class ThisSuper
 {
-    ThisSuper()
+    ThisSuper()  //3
     {
         this(22,"Program");
         System.out.println("parent class no arg constructor");
     }
-    ThisSuper(int age,String name)
+    ThisSuper(int age,String name)  //4
     {
         System.out.println("parent class 2 ==arg constructor");
     }
 }
 public class ThisandSuperTest extends ThisSuper {
-    ThisandSuperTest()
+    ThisandSuperTest()  //1
     {
         this(11,"java");
         System.out.println("child class no arg constructor");
     }
-    ThisandSuperTest(int age,String name)
+    ThisandSuperTest(int age,String name)  //2
     {
         System.out.println("child class 2 arg constructor");
     }

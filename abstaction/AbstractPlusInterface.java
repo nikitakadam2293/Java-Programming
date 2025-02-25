@@ -16,14 +16,14 @@ public class AbstractPlusInterface extends C3 implements C1,C2 {
     public void test() {
 
     }
+    @Override
+    void dummy() {
 
+    }
     @Override
     public void show() {
 
     }
 
-    @Override
-    void dummy() {
 
-    }
 }

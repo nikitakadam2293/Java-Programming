@@ -1,7 +1,7 @@
 package constuctor;
 
 class An{
-    An()
+    An()   //3
     {
         System.out.println("A");
     }
@@ -12,7 +12,8 @@ class SuperKeyword extends An
     public SuperKeyword(String age) {
         System.out.println("Parameterised Constructor");
     }
-    public SuperKeyword(String name, int age) {
+    public SuperKeyword(String name, int age)  //2
+    {
 
 
         System.out.println("Parameterised Constructor taking 2 params"+"name is  "+ name+ " age is "+ age);
@@ -20,7 +21,7 @@ class SuperKeyword extends An
 }
 public class SuperKeywordParentParamConstructor extends SuperKeyword {
     public SuperKeywordParentParamConstructor(String s,int a) {
-        super("JavaTest",1001);
+        super("JavaTest",1001);   //1
 
         //super("java",100);
 

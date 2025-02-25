@@ -1,8 +1,8 @@
 package abstaction;
 
-abstract class GPAbstract
+ abstract class GPAbstract
 {
-    abstract void show();
+     abstract void show();
     void dummy()
     {
         System.out.println("No abstact method in GP");
@@ -34,6 +34,7 @@ public class AbstractionMultilevel extends ChildAbstract {
         return 0;
     }
     public static void main(String[] args) {
+
 
         AbstractionMultilevel obj=new AbstractionMultilevel();
         obj.dummy();

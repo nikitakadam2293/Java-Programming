@@ -6,7 +6,7 @@ final class User1
 {
     private final String firstName;
     private final String lastName;
-    private final Address1 address1;
+    private final Address1 address1;  //mutable clas reference
 
     public User1( String firstName, String lastName,Address1 address1) {
         super();
@@ -120,10 +120,17 @@ public class ImmutableClass {
         Address1 address1= u1.getAddress();  // original / clone? => clone
         // after 113 clone return
 
+        System.out.println("new : "+address1);
+
+        /// ///////////////
+        ////////////////
 
         address1.setFirstLine("Shahu colony lane no 10");
 
         System.out.println(u1.toString());
+
+        System.out.println("new : "+address1); //new : Address1 [firstLine=Shahu colony lane no 10, secondLine=karve nagar, city=pune]
+
 
         /////==
 //        address1.setCity("latur");

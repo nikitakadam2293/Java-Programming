@@ -22,10 +22,10 @@ public class ObjecttoString {
         this.lastName=lastName;
     }
 
-    /*public String  toString()
+    public String  toString()
     {
         return "FirstName :"+ firstName + ",  " + "LastName : "+ lastName + "." ;
-    }*/
+    }
 
     public static void main(String[] args) {
         ObjecttoString obj = new ObjecttoString();

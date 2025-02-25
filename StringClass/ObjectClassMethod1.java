@@ -42,6 +42,8 @@ public class ObjectClassMethod1 {
         String s1=" java  oops";
         s1= " hello";
 
+        System.out.println("s1 ==="+s1);  //s1 === hello  bcz s1 change reference from  java  oops to  hello
+
 
         String sobj= new String("  Nikita");
         sobj=" kadam";

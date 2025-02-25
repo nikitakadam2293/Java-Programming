@@ -15,7 +15,7 @@ public class InternStringMethod {
         System.out.println(s1==s4);  //false
 
         String s5="Hello";
-        System.out.println(s4==s5);
+        System.out.println(s4==s5);  //true
 
 
     }

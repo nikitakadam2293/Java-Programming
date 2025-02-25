@@ -13,6 +13,8 @@ class Finalize1
         System.out.println(" Finalize method");
         this.arr=null;
 
+
+
     }
 
 }

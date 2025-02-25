@@ -8,17 +8,19 @@ public class StringBuffer1 {
         StringBuffer str= new StringBuffer("Hello");
 
         StringBuffer str2= str.append("World");
-        System.out.println(str);  // mutable
-        System.out.println(str2);  //
+        System.out.println("str " +str);  // mutable  //HelloWorld
+        System.out.println("str2 "+  str2);  //  HelloWorld
 
         System.out.println(str.length());  //10 due to mutable
 
         //String Builder
 
         StringBuilder str3= new StringBuilder("StringBuilder");
-        System.out.println(str3.append("Is Class of "));
+        System.out.println(str3.append("Is Class of "));  //StringBuilderIs Class of
 
-        System.out.println(" Reverse StringBuffer"+str3.reverse());
+
+        System.out.println(" Reverse StringBuffer"+str3.reverse());  // Reverse StringBuffer fo ssalC sIredliuBgnirtS
+
 
         // convert string buffer to string builder
 
@@ -27,10 +29,11 @@ public class StringBuffer1 {
 
         StringBuilder str5= new StringBuilder(s5);
 
-        System.out.println("StringBuffer str4 : " +  str4);
+        System.out.println("StringBuffer str4 : " +  str4); //Hello
 
 
-        System.out.println("StringBuilder str5 : " +  str5);
+        System.out.println("String str5 : " +  str5);  //Hello
+
 
         // convert StringBuilder to stringbufer
 
@@ -40,9 +43,9 @@ public class StringBuffer1 {
 
         StringBuffer str8 = new StringBuffer(str7);
 
-        System.out.println("StringBuilder str6 " + str6);
-        System.out.println("String str7 : "+ str7);
-        System.out.println("StringBuffer str8: " +str8 );
+        System.out.println("StringBuilder str6 " + str6);  //Java
+        System.out.println("String str7 : "+ str7);    //Java
+        System.out.println("StringBuffer str8: " +str8 );   //Java
 
 
     }

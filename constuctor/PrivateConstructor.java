@@ -1,19 +1,21 @@
 package constuctor;
 
 class Parent{
-  /* private Parent()
+     Parent()
     {
         System.out.println("Parent constructor");
-    }*/
+    }
 }
 public class PrivateConstructor extends Parent
 {
-    PrivateConstructor()
+    private PrivateConstructor()
     {
 
+        System.out.println("private ");
     }
 
     public static void main(String[] args) {
 
+        PrivateConstructor o = new PrivateConstructor();
     }
 }

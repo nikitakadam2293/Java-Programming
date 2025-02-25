@@ -6,7 +6,7 @@ public class String3 {
         String s2= "Hello";
         String s3=new String("Hello");
 
-        System.out.println(" =="+s1.equals(s3));
+        System.out.println(" =="+s1.equals(s3));  //true
 
         String s4=" hi";
 

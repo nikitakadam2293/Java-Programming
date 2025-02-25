@@ -2,16 +2,16 @@ package constuctor;
 
 class Ay
 {
-    public Ay()
+    public Ay()  //6
     {
         System.out.println("No arg Ay constructor");
     }
-    public Ay(String name)
+    public Ay(String name)   //5
     {
         this();
         System.out.println("1 arg Ay constructor");
     }
-    public Ay(int a, String v) //4
+    public Ay(int a, String v) //  //4
     {
         this("abc");
         System.out.println("2 arg Ay constructor");
@@ -25,7 +25,8 @@ class By extends Ay
     public By(String name) {
         System.out.println("1 arg By constructor");
     }
-    public By(int a, String v) {
+    public By(int a, String v)
+    {
         System.out.println("2 arg By constructor");
     }
 }
