@@ -37,19 +37,19 @@ public class IntroToMulThreading1 {
         SyncnonizeDisplay1 obj = new SyncnonizeDisplay1();
 
 
-        ThreadSynchonization1  thread1 = new ThreadSynchonization1(obj);  //obj
+        ThreadSynchonization1  thread1 = new ThreadSynchonization1(obj);
         thread1.start();
         thread1.setName("Ramesh");
 
-        thread1.join();
+       // thread1.join();
 
-        ThreadSynchonization1  thread2 = new ThreadSynchonization1(obj); //obj
+        ThreadSynchonization1  thread2 = new ThreadSynchonization1(obj);
         thread2.start();
         thread2.setName("Suresh");
 
-        thread2.join();
+      //  thread2.join();
 
-        ThreadSynchonization1  thread3 = new ThreadSynchonization1(obj); //obj
+        ThreadSynchonization1  thread3 = new ThreadSynchonization1(obj);
         thread3.start();
         thread3.setName("Kamlesh");
 
